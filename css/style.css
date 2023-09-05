@@ -1,0 +1,157 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #E0E8FF;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.background {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.moving {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+}
+
+.card {
+    width: 450px;
+    height: 697px;
+    border-radius: 20px;
+    background-color: #FFF;
+}
+
+.image {
+    content: url(../order-summary-component-main/images/illustration-hero.svg);
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1 {
+    color: #1F2E55;
+    width: 354px;
+    height: 37px;
+    font-weight: 900;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-left: 48px;
+    text-align: center;
+}
+
+.description {
+    color: #717FA6;
+    width: 354px;
+    height: 78px;
+    text-align: center;
+    margin-left: 48px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+.plan-menu {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border-radius: 11px;
+    background-color: #F7F9FF;
+    width: 354px;
+    height: 98px;
+    text-align: center;
+    margin-bottom: 57px;
+    margin-left: 48px;
+}
+
+svg {
+    margin-top: 25px;
+    margin-left: 24px;
+    margin-bottom: 25px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 25px;
+}
+
+.price h2 {
+    font-size: 16px;
+    color: #1F2E55;
+    font-weight: 900;
+}
+
+.price p {
+    color: #717FA6;
+    font-weight: 500;
+}
+
+.change {
+    width: 52px;
+    height: 19px;
+    color: #382AE1;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 94px;
+}
+
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.payment-button {
+    width: 354px;
+    height: 50px;
+    background-color: #382AE1;
+    border-radius: 11px;
+    border: none;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 900;
+    box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+}
+
+.cancel-order-button {
+    width: 96px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    color: #717FA6;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.attribution { 
+    margin-top: 10px;
+    font-size: 11px;  
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+
+.payment-button:hover {
+    background-color: #766CF1;
+}
+
+.cancel-order-button:hover {
+    color: #1F2E55;
+}
+
+.change:hover {
+    color: #766CF1;
+    text-decoration: none;
+}

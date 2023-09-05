@@ -1,0 +1,70 @@
+@media(max-width: 453px) {
+    .card {
+        width: 327px;
+        height: 567px;
+    }
+
+    .plan-menu {
+        width: 279px;
+        height: 81px;  
+        margin-left: 24px; 
+    }
+
+    h1 {
+        width: 263px;
+        height: 29px;
+        font-size: 22px;
+        margin-left: 32px;
+    }
+
+    .description {
+        width: 263px;
+        height: 75px;
+        margin-left: 32px;
+    }
+
+    .plan-menu {
+        margin-bottom: 32px;
+    }
+
+    svg {
+        margin-top: 17px;
+        margin-left: 16px;
+        margin-bottom: 16px;
+    }
+
+    .price {
+        margin-top: 23px;
+        margin-left: 20px;
+
+    }
+
+    .price h2 {
+        font-size: 13.5px;
+    }
+
+    .price p {
+        font-size: 14px;
+    }
+
+    .change {
+        width: 48px;
+        height: 17px;
+        font-size: 13px;
+        margin-top: 33px;
+        margin-left: 50px;
+    }
+
+    .payment-container {
+        gap: 24px;
+    }
+
+    .payment-button {
+        width: 279px;
+    }
+    
+    .attribution { 
+        font-size: 10px;  
+    }
+
+}
